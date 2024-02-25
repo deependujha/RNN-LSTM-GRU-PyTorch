@@ -52,8 +52,8 @@ output, (hn, cn) = rnn(input, (h0, c0))
 ---
 
 ## GRU (Gated Recurrent Unit)
-![gru](assets/GRU.png)
-
+![gru](assets/gru.png)
+- https://pytorch.org/docs/stable/generated/torch.nn.GRU.html#torch.nn.GRU
 - Simplified LSTM
 - Needs `input and hidden state`
 - Outputs `hidden state and output`
